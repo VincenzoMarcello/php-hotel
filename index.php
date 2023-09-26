@@ -64,17 +64,27 @@ $hotels = [
 </head>
 
 <body>
-    <h1>titolo</h1>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown button
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-    </div>
+    <!-- STAMPIAMO A SCHERMO LE INFO TRAMITE FOREACH -->
+    <ul>
+        <?php foreach ($hotels as $hotel): ?>
+            <li>
+                <?php echo $hotel["name"] ?>
+            </li>
+            <li>
+                <?php echo $hotel["description"] ?>
+            </li>
+            <li>
+                <?php echo $hotel["parking"] ?>
+            </li>
+            <li>
+                <?php echo $hotel["vote"] ?>
+            </li>
+            <li>
+                <?php echo $hotel["distance_to_center"] ?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+
 
 
 

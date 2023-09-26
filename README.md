@@ -15,3 +15,9 @@ Aggiungere un secondo campo al form che permetta di filtrare gli hotel per voto 
 **Nota**
 deve essere possibile utilizzare entrambi i filtri contemporaneamente (es. ottenere una lista con hotel che dispongono di parcheggio e che hanno un voto di tre stelle o superiore)
 Se non viene specificato nessun filtro, visualizzare come in precedenza tutti gli hotel.
+
+## SVOLGIMENTO
+
+**MILESTONE 0**
+
+- stampiamo a schermo le varie informazioni contenute nell'array tramite foreach
