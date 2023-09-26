@@ -21,3 +21,7 @@ Se non viene specificato nessun filtro, visualizzare come in precedenza tutti gl
 **MILESTONE 0**
 
 - stampiamo a schermo le varie informazioni contenute nell'array tramite foreach
+
+**MILESTONE 1**
+
+- stampiamo successivamente i valori in una tabella sempre tramite il foreach
